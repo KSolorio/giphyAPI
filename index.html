@@ -1,0 +1,44 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <meta charset="utf-8">
+    <title>Giphy Time!!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!--CSS-->
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+
+    
+</head>
+
+<body>
+
+    <div class = "container">
+        <h1>Band GIPHY search!</h1>
+
+        <!--Giphy buttons go here-->
+        <div id ="bands-view"></div>
+
+        <form id="band-form">
+            <label for="band-search">Search for a giphy</label><br>
+            <input type="text" id="giphy-input">
+            <!--button-->
+            <input id="band-submit" type = "submit" value="GO!"></imput>
+        </form>
+
+        <div id="bandgifs-here"></div>
+
+    </div>
+
+</body>
+
+<!--Jquery-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!--Javascript-->
+<script src="assets/javascript/main.js"></script>
+
+</html>
