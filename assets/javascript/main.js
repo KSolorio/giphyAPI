@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
   //create initial giphy array
-  var bands = ['Selena y los Dinos', 'The Beatles', 'Red Hot Chili Peppers','Grateful Dead', 'Pink Floyd', 'OutKast', 'Twenty One Pilots', 'Foster the People', 'Panic at the Disco'];
+  var bands = ['Selena y los Dinos', 'The Beatles', 'Red Hot Chili Peppers','Grateful Dead', 'Pink Floyd', 'OutKast', 'Foster the People', 'Imagine Dragons', 'Rhianna', 'Drake', 'Beyonce', 'Shakira', 'The Weeknd', ];
   //create function to display gifs
   //display buttons
   function createButton() {
@@ -59,9 +59,9 @@ $(document).ready(function() {
         //creates image tag for gif
         var bandimg = $("<img>");
         // animated source
-        var animated = results[i].images.fixed_height.url;
+        var animated = results[i].images.fixed_height_small.url;
         // static source
-        var static = results[i].images.fixed_height_still.url;
+        var static = results[i].images.fixed_height_small_still.url;
         
         bandimg.addClass("bandGiphy");
         //gives gif a source attribute pulled off result item
@@ -101,5 +101,4 @@ $(document).ready(function() {
     }
 
 
-  });
-  
+});

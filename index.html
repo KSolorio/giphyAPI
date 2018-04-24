@@ -10,28 +10,49 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!--CSS-->
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Black+Han+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
 
     
 </head>
 
 <body>
-
     <div class = "container">
-        <h1>Band GIPHY search!</h1>
+        <div class="row">
+            <div id="header" class="col-md-12">
+                <h1>Band GIPHY search!</h1>
+            </div>
+        </div> 
+  
 
-        <!--Giphy buttons go here-->
-        <div id ="bands-view"></div>
 
-        <form id="band-form">
-            <label for="band-search">Search for a giphy</label><br>
-            <input type="text" id="giphy-input">
-            <!--button-->
-            <input id="band-submit" type = "submit" value="GO!"></imput>
-        </form>
+            <!--Giphy buttons go here-->
+        <div id="button-row" class="row"> 
+            <div class= "col-md-12">       
+                <div id="bands-view"></div>
+            </div>
+        </div>
 
-        <div id="bandgifs-here"></div>
 
+
+        <div id="search-area" class= "row">
+            <div class="col-md-12"> 
+                <form id="band-form">
+                    <label for="band-search">Search for your favorite artist or band!</label><br>
+                    <input type="text" id="giphy-input">
+                    <!--button-->
+                    <input id="band-submit" type = "submit" value="GO!"></imput>
+                </form>
+            </div>
+        </div>
+
+        <container class="row">
+            <div id="gifs-here" class="col-md-12">
+                <div id="bandgifs-here"></div>
+            </div>
+        </container>
     </div>
+
 
 </body>
 

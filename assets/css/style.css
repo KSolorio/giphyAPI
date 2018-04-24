@@ -1,0 +1,60 @@
+body {
+  background: url("../images/background.png") no-repeat center center fixed;
+  background-size: cover;
+  text-align: center; 
+  font-family: 'Black Han Sans', sans-serif;
+  color: white;
+}
+* {
+  box-sizing: border-box;
+}
+#header {
+  padding: 20px;
+}
+/* row where buttons go */
+#button-row {
+  text-align: center;
+  }
+
+/* gify image */
+.bandGify {
+  width: 100px;
+}
+/* buttons */
+.gif {
+  float: left;
+  margin: 5px;
+  border: solid 2px #eda807;
+  background-color: #015aa2;
+  color: white;
+  font-family: 'Arvo', serif;
+  font-size: 20px;
+
+}
+#search-area {
+  color: #eda807;
+  font-size: 30px;
+}
+#giphy-input {
+  font-size: 20px;
+  color:#015aa2;
+}
+#band-submit {
+  background-color:#eda807; 
+  color: #015aa2;
+  font-size: 15px;
+}
+/* giphy div */
+.item {
+  margin: 10px;
+  float: left;
+}
+img {
+  width: 200px;
+  height: 200px;
+}
+p {
+  clear: both;
+  font-family: 'Arvo', serif;
+  font-size: 15px;
+}
